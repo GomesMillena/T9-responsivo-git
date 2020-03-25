@@ -32,6 +32,8 @@ h2 {
 
 .sobre-conteudo__img {
     margin-top: 80px;
+    width: 100%;
+    max-width: 233px;
 }  
     
 .sobre-conteudo {
@@ -50,6 +52,16 @@ h2 {
     height: 86px;
     margin-left: 40px;
 }
+
+/* Media Query */
+/* Quando a tela for menor que 400px, quero que o h1 tenha tamanho de 30px */
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
 
 
 
