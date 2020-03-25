@@ -26,14 +26,19 @@ h2 {
 /* SEÇÃO SOBRE */
 .secao-sobre {
     background-color: white;
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
 }
 
 .sobre-conteudo__img {
     margin-top: 80px;
     width: 100%;
+<<<<<<< HEAD
     max-width: 233px;
+=======
+    max-width: 230px;
+>>>>>>> c031336e142a3bdb31239fc9866fdbb6386b4a41
 }  
     
 .sobre-conteudo {
@@ -54,14 +59,27 @@ h2 {
 }
 
 /* Media Query */
+<<<<<<< HEAD
 /* Quando a tela for menor que 400px, quero que o h1 tenha tamanho de 30px */
 
+=======
+>>>>>>> c031336e142a3bdb31239fc9866fdbb6386b4a41
 @media screen and (max-width: 400px) {
     h1 {
         font-size: 30px;
     }
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c031336e142a3bdb31239fc9866fdbb6386b4a41
 
-
+/* Media Query - Breakpoints
+    350px
+    420px
+    768px
+    1024px
+    1200px
+    1920px
+*/

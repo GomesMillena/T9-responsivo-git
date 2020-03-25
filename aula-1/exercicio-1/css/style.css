@@ -28,7 +28,11 @@ h2 {
 }
 
 p {
+<<<<<<< HEAD
     width: 100px;
+=======
+    width: 100%;
+>>>>>>> c031336e142a3bdb31239fc9866fdbb6386b4a41
     margin-bottom: 110px;
     text-align: right;  
 }
@@ -49,7 +53,11 @@ p {
 }
 
 .section-sobre {
+<<<<<<< HEAD
    max-width: 900px;
+=======
+   max-width: 960px;
+>>>>>>> c031336e142a3bdb31239fc9866fdbb6386b4a41
    margin: 0 auto; /* macete para deixar elementos block centralizados */
    margin-top: 100px;
 }
@@ -73,6 +81,7 @@ p {
     border: 1px solid #5d1277; /* cria uma borda no elemento. Ordem de valores: grossura-da-borda tipo-da-borda cor-da-borda. */
 }
 
+<<<<<<< HEAD
 /* Media Query */
 @media screen and (max-width: 600px) {
 .sobre-conteudo, .sobre-imagem {
@@ -96,4 +105,29 @@ p {
 img {
     width: 100%;
     margin-top: 40px;
+=======
+/* Media queries */
+@media screen and (max-width: 800px) {
+    .sobre-conteudo, .sobre-imagem {
+        width: 100%;
+    }
+
+    h1, h2, p {
+        text-align: center;
+    }
+
+    p {
+        max-width: 430px;
+        margin: 0 auto 110px auto;
+    }
+
+    .sobre-conteudo__botoes {
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        margin-top: 40px;
+    }
+>>>>>>> c031336e142a3bdb31239fc9866fdbb6386b4a41
 }
