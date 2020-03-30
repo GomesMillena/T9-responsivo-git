@@ -1,0 +1,26 @@
+@media only screen and (max-width: 780px) {
+    header.header {
+        max-width: 100%;
+        text-align: right;
+    }
+    header.header>button.hamburguer {
+        display: inline-block;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: right;
+        right: auto;
+        padding: 2%;
+    }
+
+    div.main-container{
+        padding-top: 60%;
+        padding-bottom: 55%;
+    }
+
+    nav.menu {
+        max-width: 780px;
+        display: none;
+    }
+        
+    
+}

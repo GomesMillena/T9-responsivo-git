@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.main-container {
+    background: url(../img/foto-banner.jpg) no-repeat 0 0, top/100% 100%;
+    max-height: 100%;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    filter: grayscale(90%);
+}
+ 
+nav.menu {
+    min-width: 780px;
+    text-align: right;
+}
+header.header {
+    padding: 2%;
+}
+
+header.header>button.hamburguer {
+    display: none;
+}
+
+li.menu_itens {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: xx-large;
+    align-items: center;
+    display: inline;
+}
